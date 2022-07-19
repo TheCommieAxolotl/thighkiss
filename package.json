@@ -1,0 +1,33 @@
+{
+    "name": "thighkiss",
+    "version": "1.0.0",
+    "description": "A simple brainfuck interpreter. Because there aren't enough of them.",
+    "exports": {
+        "node": {
+            "import": "./dist/mjs/index.mjs",
+            "require": "./dist/cjs/index.cjs"
+        },
+        "default": "./dist/mjs/index.mjs"
+    },
+    "type": "module",
+    "main": "./dist/cjs/index.cjs",
+    "module": "./dist/mjs/index.mjs",
+    "scripts": {
+        "pack": "rollup -c",
+        "watch": "rollup -c -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TheCommieAxolotl/thighkiss.git"
+    },
+    "author": "TheCommieAxolotl",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/TheCommieAxolotl/thighkiss/issues"
+    },
+    "homepage": "https://github.com/TheCommieAxolotl/thighkiss#readme",
+    "devDependencies": {
+        "rollup": "^2.77.0",
+        "rollup-plugin-terser": "^7.0.2"
+    }
+}
