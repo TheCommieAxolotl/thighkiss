@@ -1,7 +1,7 @@
 # ThighKiss
 A simple brainfuck interpreter. Because there aren't enough of them.
 
-## Useage
+## Usage
 ```js
 import thighkiss from 'thighkiss'; // commonjs: const thighkiss = require('thighkiss')
 
