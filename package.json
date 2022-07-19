@@ -1,6 +1,6 @@
 {
     "name": "thighkiss",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "A simple brainfuck interpreter. Because there aren't enough of them.",
     "exports": {
         "node": {
