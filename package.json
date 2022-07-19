@@ -1,6 +1,6 @@
 {
     "name": "thighkiss",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A simple brainfuck interpreter. Because there aren't enough of them",
     "exports": {
         "node": {
@@ -25,6 +25,13 @@
     "bugs": {
         "url": "https://github.com/TheCommieAxolotl/thighkiss/issues"
     },
+    "keywords": [
+        "brainfuck",
+        "interpreter",
+        "compiler",
+        "thighkiss",
+        "bf"
+    ],
     "homepage": "https://github.com/TheCommieAxolotl/thighkiss#readme",
     "devDependencies": {
         "rollup": "^2.77.0",
