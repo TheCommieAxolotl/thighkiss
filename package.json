@@ -34,7 +34,7 @@
     ],
     "homepage": "https://github.com/TheCommieAxolotl/thighkiss#readme",
     "devDependencies": {
-        "rollup": "^2.77.0",
+        "rollup": "^3.29.5",
         "rollup-plugin-terser": "^7.0.2"
     }
 }
